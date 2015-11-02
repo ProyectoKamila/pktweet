@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dashboard:before {
+  content: "a";
+}
+.icon-git-compare:before {
+  content: "c";
+}
+.icon-repo-forked:before {
+  content: "d";
+}
+.icon-three-bars:before {
+  content: "e";
+}
+.icon-thumbnails:before {
+  content: "j";
+}
+.icon-fontawesome-webfont-3:before {
+  content: "n";
+}
+.icon-fontawesome-webfont-4:before {
+  content: "o";
+}
+.icon-fontawesome-webfont-6:before {
+  content: "q";
+}
+.icon-fontawesome-webfont-7:before {
+  content: "r";
+}
+.icon-database-1:before {
+  content: "w";
+}
+.icon-flow-parallel:before {
+  content: "x";
+}
+.icon-fontawesome-webfont:before {
+  content: "b";
+}
+.icon-server:before {
+  content: "g";
+}
+.icon-torsos-all:before {
+  content: "h";
+}
+.icon-fontawesome-webfont-1:before {
+  content: "i";
+}
+.icon-flow-tree:before {
+  content: "k";
+}
+.icon-erase:before {
+  content: "l";
+}
+.icon-git-merge:before {
+  content: "m";
+}
+.icon-git-branch:before {
+  content: "p";
+}
+.icon-git-pull-request:before {
+  content: "s";
+}
+.icon-pencil:before {
+  content: "u";
+}
+.icon-fontawesome-webfont-2:before {
+  content: "v";
+}
+.icon-flow-line:before {
+  content: "y";
+}
+.icon-flow-cascade:before {
+  content: "z";
+}
+.icon-network-sans:before {
+  content: "A";
+}
+.icon-ionicons:before {
+  content: "B";
+}
+.icon-ionicons-1:before {
+  content: "C";
+}
+.icon-ionicons-2:before {
+  content: "E";
+}
+.icon-ionicons-3:before {
+  content: "F";
+}
+.icon-ionicons-4:before {
+  content: "G";
+}
+.icon-ionicons-5:before {
+  content: "H";
+}
+.icon-ionicons-6:before {
+  content: "I";
+}
+.icon-ionicons-7:before {
+  content: "J";
+}
+.icon-ionicons-8:before {
+  content: "K";
+}
+.icon-ionicons-9:before {
+  content: "L";
+}
+.icon-elusive-icons:before {
+  content: "P";
+}
+.icon-elusive-icons-1:before {
+  content: "Q";
+}
+.icon-elusive-icons-2:before {
+  content: "R";
+}
+.icon-elusive-icons-3:before {
+  content: "S";
+}
+.icon-elusive-icons-4:before {
+  content: "T";
+}
+.icon-elusive-icons-5:before {
+  content: "U";
+}
+.icon-database-5:before {
+  content: "W";
+}
+.icon-share:before {
+  content: "X";
+}
+.icon-equalizer:before {
+  content: "Y";
+}
+.icon-maximize:before {
+  content: "Z";
+}
+.icon-feather:before {
+  content: "0";
+}
+.icon-user-add:before {
+  content: "f";
+}
+.icon-fontawesome-webfont-5:before {
+  content: "t";
+}
+.icon-check:before {
+  content: "D";
+}
+.icon-x:before {
+  content: "M";
+}
+.icon-trash-bin:before {
+  content: "N";
+}
+.icon-delete-trash-1:before {
+  content: "O";
+}
+.icon-help:before {
+  content: "V";
+}

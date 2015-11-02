@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html{height: 100%;}
+body{width: 100%; height: 100%; margin: 0px; font-family: 'Open Sans', sans-serif; background: rgb(197,32,35);}
+div.container{width: 100%; height: 100%; position: relative;  background: rgb(197,32,35); background-repeat: no-repeat; overflow: hidden; overflow-y: auto;}
+div.login{width: 300px;height: 480px; background: none; vertical-align: middle; display: inline-block; overflow: hidden; margin-top: 7%;}
+div.logo_vert{width:100%; height: 150px;  position: relative;  background: url(../../img/logo_vert.png) center no-repeat rgba(255,255,255,0.7); }
+div.form{width: 100%; height: 170px; background: white; overflow: hidden;}
+div.form h2{text-align: center; font-size: 1.3em; line-height: 1.45em; font-weight: 200;}
+input.texto{width: 90%; height: 35px; position: relative; border: none; background: #fdfdfd; margin-left: 3.5%; border-bottom: 1px solid #cdcdcd; transition: 1s all ease-in-out; text-align: center; padding-left: 1.5%;}
+input.texto:focus{outline: 1px solid #cdcdcd; transition: 1s all ease-in-out; background: #efefef;  overflow: hidden;}
+input.enviar{width: 80%; height: 35px; background: rgb(197,32,35); position: relative; margin-left: 10%; color: white; text-transform: uppercase; border: none;margin-top: 1.5%; }
+a.opcion{font-size:14px; text-decoration: none; color: #ababab; margin-left: 10px; display: inline-block; margin-top: 10px;}
+a.registrarme{font-weight: bold; color: #888888; font-size: 14px;}
+div.informative_flotante_derecho{width: 30%; height: 100%; background: rgba(255,255,255,0.7); float: right; transition: 1s all; overflow: hidden;}
+div.close_up_left{width: 30px; height: 30px; background: rgb(197,32,35); color: white; float: left; margin-top: 0px; position: relative; clear: both;line-height: 1.8;text-align: center;transition: 1s all; cursor: pointer; overflow: hidden;}
+div.close_up_left:hover{width: 80px; transition: 1s all;}
+div.mini_information{display: inline-block; vertical-align: bottom; width: 90%; margin-left: 5%; height:480px;  position: relative;     margin-top: 1%;}
+div.mini_information h2{text-align: center; font-weight: 200; color: #444444;}
+ul.list{width: 90%; padding: 0px; margin-left: 5%; text-align: center; list-style: circle; color: rgb(197,32,35);}
+ul.list li{width: 100%; color: #444444; font-weight: normal; margin-bottom: 5px;text-align: left;}
+#principal{ background-size: 170%; background-position-x: 80%; background-position-y: 50%;}
+.error{color: rgb(197,32,35); text-align: center; font-size: 14px; font-weight: 400;}
+a.s{text-align: center;display: block;line-height: 5;margin: 0px;}
+a.enviar {width: 80%;height: 35px;background: rgb(197,32,35);position: relative;margin-left: 10%;color: white;text-transform: uppercase;border: none;margin-top: 1.5%;display: block;text-align: center;text-decoration: none;line-height: 2;}
+
+@media screen and (max-width:1024px) and (orientation:landscape){
+    #principal{background-size: 180%; background-position-y:35%;overflow-y: auto;}
+    div.login{height: auto; margin-top: 0px;}
+    div.mini_information{margin-top: 0px;}
+}
+@media screen and (max-width:600px) and (orientation:portrait){
+    #principal{background-size: 333%;background-position-y: 14%;overflow-y: auto;}
+    div.informative_flotante_derecho{width: 70%; clear: both; height: auto;}
+    div.mini_information{margin-top: 0px; height: auto;}
+}
+@media screen and (max-width:768px) and (orientation:portrait){
+    #principal{background-size: 333%;background-position-y: 14%;overflow-y: auto;}
+    div.informative_flotante_derecho{width: 70%; clear: both; height: auto;}
+    div.mini_information{margin-top: 0px; height: auto;}
+}
+@media screen and (max-width:800px) and (orientation:portrait){
+    #principal{background-size: 473%;background-position-y: 24%;overflow-y: auto;}
+    div.informative_flotante_derecho{width: 70%; clear: both; height: auto;}
+    div.mini_information{margin-top: 0px; height: auto;}
+}
+@media screen and (max-width:600px) and (orientation:landscape){
+    #principal{background-size: 180%; background-position-y:35%;overflow-y: auto;}
+    div.informative_flotante_derecho{width: 100%; clear: both; height: auto;}
+    div.mini_information{margin-top: 0px; height: auto;}
+}
+@media screen and (max-width:384px) and (orientation:portrait){
+    div.informative_flotante_derecho{width: 100%; clear: both; height: auto;}
+    #principal{background-size: 520%;background-position-y: 26%;overflow-y: auto;}
+}

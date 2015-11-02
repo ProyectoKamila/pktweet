@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900);
+*{font-family: 'josefin sans';}
+.res {/*width: 36%;*/height: 46px;padding-top: 0px;overflow: hidden;float: right;}
+.res >li{float: left;margin-right: 5px;background: #d7d7d7;height: 46px;} 
+
+.twitter:hover {background: #40bff5;transition: 1s;}
+.facebook:hover {background:#5d82ff;transition: 1s;}
+.googleplus:hover {background:#eb5e4c;transition: 1s;}
+.instagram:hover {background:#548bb6;transition: 1s;}
+.linkedin:hover {background:rgb(35,140,200);transition: 1s;}
+.pinterest:hover {background:rgb(225,49,56);transition: 1s;}
+.pkclick:hover {background: #eb3915;transition: 1s;}
+.list {list-style: none;margin-top: 40px;color: silver;}
+.list li {float: left;margin-left: 25px;height: 50px;border-bottom: 9px solid white;}
+.list :hover{color: #c52023;transition: 1s;}
+.list li:hover{border-bottom: 9px solid #c52023;transition: 1s ease-in;}
+.list a  {text-decoration: none;color: silver;}
+.footer {list-style: none;color: silver;font-size: 15px;padding-left: 20px;}
+.footer a {text-decoration: none;color: silver;}
+.social {text-decoration: none;list-style: none;margin-top: -10px;}
+.social li {width: 27%;float: left;margin-left: 10px;background: #d7d7d7;margin-top: 10px;height: 46px;}
+.boton1 {border: none;background: #c52023;font-size: 35px;border-bottom: 5px solid #ab1215;margin-left: 45px;margin-top: 10px;color: white;font-weight: 700;width: 230px;border-radius: 10px;font-family: arial}
+.mini {float: right;border: none;font-size: 23px;border-bottom: 5px solid silver;color: white;border-radius: 5px;background: #d7d7d7;font-weight: 700;}
+.boton {border-radius: 3px;background: #c52023;border: none;line-height: 2;font-size: 20px;margin-left: 18px;color: white;width: 176px;height: 40px;}
+.img1 {float: left;width: 30px;margin-top: 20px;}
+.img2 {float: left;width: 30px;margin-top: 10px;}
+.text {max-width: 1000px;margin: 0 auto;text-align: center;color: #c52023;font-size: 25px;}
+.text1 {padding-top: 5px;padding-left: 45px;}
+.text2 {padding-top: 15px;padding-left: 45px;}
+.cuadro {width: 34%;margin-left: 95px;color: #c52023;font-size: 18px; float: left;}
+.cuadro1 {width: 40%;margin-left: 50px;color: #c52023;font-size: 18px;float: left;}
+.cuadro2 {width: 40%;color: #c52023;font-size: 18px;float: left;text-align: center;}
+.go {text-decoration: none;color: #c52023}
+.img3 {max-width: 100%;margin: 0 auto;overflow: hidden;}
+.diiv {max-width: 100%;background: #f0f0f0;overflow: hidden;}
+.diiv1 {max-width: 800px;margin: 0 auto;}
+.img4 {width: 250px;}
+.ter {float: left;margin: 0 auto;}
+
+
+
+.header1 {width: 100%;height: auto;background: #f0f0f0;}
+.header2 {max-width: 1000px;min-height: 46px;background: none; margin: 0 auto;}
+.header3 {width: 60%;height: 46px;text-align: right;padding-top: 0px;overflow: hidden;float: left;}
+.link1 {text-decoration: none;color: #353535;font-size: 17px;}
+.header4 {max-width: 1000px;margin: 0 auto;overflow: hidden;}
+.header5 {float: left;margin-left: 80px;}
+.der {text-decoration: none;list-style: none;margin: 0 auto;}
+.derr {float: left;}
+
+.footer1 {background: grey;width: 100%;margin: 0 auto;overflow: hidden;}
+.footer2 {max-width: 700px;margin: 0 auto;height: 240px;}
+.footer3 {width: 25%;float: left;}
+.texto1 {color: silver;font-size: 15px;margin-left: 19px;margin-top: 30px;}
+.footer4 {width: 45%;float: left;}
+.footer5 {width: 30%;float: left;}
+.texto2 {text-align: center;color: silver;font-size: 15px;margin-left: 19px;margin-top: 30px;}
+.footer6 {background: #424242;width: 100%;height: 100px;overflow: hidden;}
+.footer7 {max-width: 800px;margin: 0 auto;width: 40%;margin-top: 13px;}
+.texto3 {font-size: 21px;color: silver;float: left;text-align: right;}
+.footer8 {max-width: 800px;margin: 0 auto;}
+.footer9 {background: #353535;width: 100%;overflow: hidden;}
+.footer10 {max-width: 800px;margin: 0 auto;margin-top: 13px;}
+.texto4 {font-size: 13px;color: silver;float: left;}
+.footer11 {max-width: 800px;margin: 0 auto;margin-top: 22px;margin-left: 155px;}
+
+a.enviar {
+height: 100%;
+background: rgb(197,32,35);
+position: relative;
+color: white;
+text-transform: uppercase;
+border: none;
+display: block;
+text-align: center;
+text-decoration: none;
+line-height: 3;
+padding: 0px 15px;
+}
